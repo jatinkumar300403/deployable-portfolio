@@ -1,11 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
-// import Contact from "@/components/Contact";
-// import Experience from "@/components/Experience";
-// import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
-// import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -14,7 +10,6 @@ import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-// import Archive from "@/components/Archive";
 
 export default function Home() {
   return (
