@@ -3,53 +3,52 @@ import SectionTitle from "./SectionTitle";
 import Amazon from "./works/Amazon";
 import Apple from "./works/Apple";
 import Google from "./works/Google";
-import ReactBD from "./works/ReactBD";
+import ReactBD from "./works/SwapIT";
 import Splash from "./works/Splash";
 
 const Experience = () => {
-  const [workReactbd, setWorkReactbd] = useState(true);
+  const [workSwapIT, setWorkSwapIT] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
   const [workApple, setWorkApple] = useState(false);
   const [workSplash, setWorkSplash] = useState(false);
   const [workAmazon, setWorkAmazon] = useState(false);
 
   const handleReactbd = () => {
-    setWorkReactbd(true);
+    setWorkSwapIT(true);
     setWorkGoogle(false);
     setWorkApple(false);
     setWorkSplash(false);
     setWorkAmazon(false);
   };
 
-  const handleGoogle = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
-    setWorkAmazon(false);
-  };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
-    setWorkAmazon(false);
-  };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
-  };
+  // const handleGoogle = () => {
+  //   setWorkReactbd(false);
+  //   setWorkGoogle(true);
+  //   setWorkApple(false);
+  //   setWorkSplash(false);
+  //   setWorkAmazon(false);
+  // };
+  // const handleApple = () => {
+  //   setWorkReactbd(false);
+  //   setWorkGoogle(false);
+  //   setWorkApple(true);
+  //   setWorkSplash(false);
+  //   setWorkAmazon(false);
+  // };
+  // const handleSplash = () => {
+  //   setWorkReactbd(false);
+  //   setWorkGoogle(false);
+  //   setWorkApple(false);
+  //   setWorkSplash(true);
+  //   setWorkAmazon(false);
+  // };
+  // const handleAmazon = () => {
+  //   setWorkReactbd(false);
+  //   setWorkGoogle(false);
+  //   setWorkApple(false);
+  //   setWorkSplash(false);
+  //   setWorkAmazon(true);
+  // };
   return (
     <section
       id="experience"
@@ -61,14 +60,14 @@ const Experience = () => {
           <li
             onClick={handleReactbd}
             className={`${
-              workReactbd
+              workSwapIT
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            RactBD
+            VinnovateIT
           </li>
-          <li
+          {/* <li
             onClick={handleGoogle}
             className={`${
               workGoogle
@@ -107,13 +106,13 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Amazon
-          </li>
+          </li> */}
         </ul>
-        {workReactbd && <ReactBD />}
-        {workGoogle && <Google />}
+        {workSwapIT && <ReactBD />}
+        {/* {workGoogle && <Google />}
         {workApple && <Apple />}
         {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {workAmazon && <Amazon />} */}
       </div>
     </section>
   );

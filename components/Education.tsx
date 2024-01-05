@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Google from "./works/Google";
-import ReactBD from "./works/ReactBD";
+import ReactBD from "./works/SwapIT";
 import School from "./education/school";
 import Undergrad from "./education/undergrad";
 

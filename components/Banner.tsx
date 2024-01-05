@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Banner = () => {
   return (
     <section
@@ -28,10 +29,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nihil
-        eligendi iusto, rerum distinctio iste expedita consectetur minus quae
-        rem libero facilis a quia, nesciunt deleniti. Odio ipsa omnis eum veniam
-        iure odit quis? Architecto ipsa blanditiis dolorum quos asperiores.
+        Devoted and a highly motivated student, currently in 2nd year of B.Tech.
+        CS Engineering seeking to kickstart a successful career in Web
+        Development. Possessing a solid academic foundation. I am eager to contribute my skills, and learn as much
+        as possible and gain experience in the particular field and determined
+        to contribute and add value to the organization.
         <a href="" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             learn more.
@@ -39,14 +41,16 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
+      <Link href={"https://github.com/jatinkumar300403?tab=repositories"} target="_blank">
       <motion.button
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
         className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
       >
-        check out my project!
+        check out my projects!
       </motion.button>
+      </Link>
     </section>
   );
 };
