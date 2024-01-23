@@ -13,27 +13,25 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illum sit, explicabo iusto temporibus voluptate recusandae, enim illo ullam error velit laborum laboriosam cupiditate officia repellendus placeat. Sit, enim velit.
-            Consequatur esse doloremque in eligendi deserunt explicabo sed libero, repudiandae accusantium laborum quibusdam exercitationem dolor omnis culpa maxime voluptate, harum impedit repellendus quidem. Mollitia aut, dolores provident odit eum qui.
-            Hic, magnam delectus? Iste iure, incidunt vitae modi quia nihil, itaque nesciunt explicabo, commodi nam error recusandae saepe voluptates? Ducimus magnam numquam, dolorum nam maxime quas impedit obcaecati? Saepe, unde.
-            Quas minus voluptate officia corrupti labore assumenda in, esse nihil, voluptatem natus nam tenetur deserunt doloribus quibusdam iure recusandae laudantium ut repellat, aliquid distinctio. Maiores qui ab quaerat eaque voluptatibus.
+            My name is Jatin Kumar. I am 18 years old 2nd year student at VIT,
+            Vellore pursuing Bachelors of Technology in the field of Computer
+            Science and Engineering. I am basically from Patna but currently
+            living in Nodia (Delhi NCR) with my family. Since my childhood i was
+            fascinated with computers and technology as it always kept my mind
+            intrigued that how is this device working! And now since I have
+            resources to study about working and dynamics of any interesting
+            technology, I am always eager to learn it's working and have a good
+            grasp of it.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            Currently, I am into the{" "}
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
+             field of Web Development (especially front-end) 
             </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+             and also learning
+            about backend day-by-day, since my goal is to become a full-stack
+            web developer as I am higly interested in websites and computer
+            networking.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -41,7 +39,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              JavaScript (ES6)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -53,7 +51,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              React.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
