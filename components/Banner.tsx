@@ -21,7 +21,7 @@ const Banner = () => {
         className="text-4xl lgl: text-6xl font-titleFont font-semibold flex flex-col"
       >
         Jatin Kumar.
-        <span className="text-textDark mt-2 lgl:mt-4">I build websites.</span>
+        <span className="text-textDark mt-2 lgl:mt-4">A tech enthusiast.</span>
       </motion.h1>
       <motion.p
         initial={{ y: 10, opacity: 0 }}
