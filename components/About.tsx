@@ -25,7 +25,9 @@ const About = () => {
           </p>
           <p>
             Currently, I am into the{" "}
+            Currently, I am into the{" "}
             <span className="text-textGreen">
+             field of Web Development (especially front-end) 
              field of Web Development (especially front-end) 
             </span>
              and also learning
@@ -40,6 +42,7 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               JavaScript (ES6)
+              JavaScript (ES6)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -51,6 +54,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              React.js
               React.js
             </li>
             <li className="flex items-center gap-2">
@@ -122,3 +126,4 @@ const About = () => {
 };
 
 export default About;
+
