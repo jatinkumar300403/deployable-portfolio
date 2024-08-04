@@ -21,7 +21,7 @@ const School = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Completed my senior secondary education at GIIS, Noida in the field of Science with an overall aggregate of 92.4% in CBSE.
+          Completed my senior secondary education at GIIS, Noida in the field of Science with an overall aggregate of 92.2% in CBSE.
         </li>
       </ul>
     </motion.div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Google from "./works/Google";
+import Google from "./works/Tripster";
 import ReactBD from "./works/SwapIT";
 import School from "./education/school";
 import Undergrad from "./education/undergrad";
@@ -24,7 +24,7 @@ const Experience = () => {
       id="experience"
       className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title="Where I have Worked and Studied" titleNo="02.ii" />
+      <SectionTitle title="Where I have studied" titleNo="02.ii" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
         <li

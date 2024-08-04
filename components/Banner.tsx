@@ -29,17 +29,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Devoted and a highly motivated student, currently in 2nd year of B.Tech.
+        Devoted and a highly motivated student, currently in 3rd year of B.Tech.
         CS Engineering seeking to kickstart a successful career in Web
         Development. Possessing a solid academic foundation. I am eager to contribute my skills, and learn as much
         as possible and gain experience in the particular field and determined
         to contribute and add value to the organization.
-        <a href="" target="_blank">
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            learn more.
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 tansition-transform duration-500"></span>
-          </span>
-        </a>
       </motion.p>
       <Link href={"https://github.com/jatinkumar300403?tab=repositories"} target="_blank">
       <motion.button

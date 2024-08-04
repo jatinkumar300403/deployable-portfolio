@@ -21,13 +21,13 @@ const ReactBD = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code in the development of a website called 'SwapIT'.
+          Write modern, performant, maintainable code in the development of a website called {'SwapIT'}.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          SwapIT is an 'Add and Drop Portal' for the students of VIT,Vellore in order to swap their faculty/professors with ease.
+          SwapIT is an {'Add and Drop Portal'} for the students of VIT,Vellore in order to swap their faculty/professors with ease.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

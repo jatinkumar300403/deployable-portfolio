@@ -13,14 +13,14 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            My name is Jatin Kumar. I am 18 years old 2nd year student at VIT,
+            My name is Jatin Kumar. I am 19 years old and a 3rd year student at VIT,
             Vellore pursuing Bachelors of Technology in the field of Computer
             Science and Engineering. I am basically from Patna but currently
             living in Nodia (Delhi NCR) with my family. Since my childhood i was
             fascinated with computers and technology as it always kept my mind
             intrigued that how is this device working! And now since I have
             resources to study about working and dynamics of any interesting
-            technology, I am always eager to learn it's working and have a good
+            technology, I am always eager to learn {"it's"} working and have a good
             grasp of it.
           </p>
           <p>
@@ -31,7 +31,7 @@ const About = () => {
              and also learning
             about backend day-by-day, since my goal is to become a full-stack
             web developer as I am higly interested in websites and computer
-            networking.
+            networking. 
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -69,19 +69,37 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Express.js
+              TailwindCSS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              Computer Vision
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Reinforcement Learning
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Natural Language Processing
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              C++
             </li>
           </ul>
         </div>
