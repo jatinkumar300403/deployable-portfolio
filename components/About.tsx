@@ -13,10 +13,10 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            My name is Jatin Kumar. I am 19 years old and a 3rd year student at VIT,
+            My name is Jatin Kumar. I am 20 years old and a Final year student at VIT,
             Vellore pursuing Bachelors of Technology in the field of Computer
             Science and Engineering. I am basically from Patna but currently
-            living in Nodia (Delhi NCR) with my family. Since my childhood i was
+            living in Noida (Delhi NCR) with my family. Since my childhood, I was
             fascinated with computers and technology as it always kept my mind
             intrigued that how is this device working! And now since I have
             resources to study about working and dynamics of any interesting
@@ -26,7 +26,7 @@ const About = () => {
           <p>
             Currently, I am into the{" "}
             <span className="text-textGreen">
-             field of Web Development (especially front-end) 
+             Deep Learning(RAG and Agentic AI) and Continual Learning
             </span>
              and also learning
             about backend day-by-day, since my goal is to become a full-stack
@@ -81,7 +81,19 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Reinforcement Learning
+              Retrieval-Augmented Generation(RAG)
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Agentic AI
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Continual Learning(MSCIL and FSCIL)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -100,6 +112,12 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               C++
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              MySQL
             </li>
           </ul>
         </div>

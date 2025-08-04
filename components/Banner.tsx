@@ -29,9 +29,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Devoted and a highly motivated student, currently in 3rd year of B.Tech.
-        CS Engineering seeking to kickstart a successful career in Web
-        Development. Possessing a solid academic foundation. I am eager to contribute my skills, and learn as much
+        Devoted and a highly motivated student, currently in final year of B.Tech.
+        CS Engineering seeking to kickstart a successful career in Software Development. Possessing a solid academic foundation. I am eager to contribute my skills, and learn as much
         as possible and gain experience in the particular field and determined
         to contribute and add value to the organization.
       </motion.p>

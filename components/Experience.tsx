@@ -8,8 +8,8 @@ import Splash from "./works/Xlancr";
 
 const Experience = () => {
   const [workSwapIT, setWorkSwapIT] = useState(false);
-  const [workTripster, setWorkTripster] = useState(true);
-  const [workApple, setWorkApple] = useState(false);
+  const [workTripster, setWorkTripster] = useState(false);
+  const [workApple, setWorkApple] = useState(true);
   const [workXlancr, setWorkXlancr] = useState(false);
   const [workAmazon, setWorkAmazon] = useState(false);
 
@@ -35,13 +35,13 @@ const Experience = () => {
     setWorkXlancr(false);
     setWorkAmazon(false);
   };
-  // const handleApple = () => {
-  //   setWorkReactbd(false);
-  //   setWorkGoogle(false);
-  //   setWorkApple(true);
-  //   setWorkSplash(false);
-  //   setWorkAmazon(false);
-  // };
+  const handleApple = () => {
+    setWorkSwapIT(false);
+    setWorkTripster(false);
+    setWorkApple(true);
+    setWorkXlancr(false);
+    setWorkAmazon(false);
+  };
   // const handleSplash = () => {
   //   setWorkReactbd(false);
   //   setWorkGoogle(false);
@@ -64,7 +64,17 @@ const Experience = () => {
       <SectionTitle title="Where I have Worked" titleNo="02.i" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
-        <li
+          <li
+            onClick={handleApple}
+            className={`${
+              workApple
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Research Internship
+          </li>
+          <li
             onClick={handleTripster}
             className={`${
               workTripster
@@ -94,8 +104,7 @@ const Experience = () => {
           >
             Xlancr
           </li>
-          
-          
+
           {/* <li
             onClick={handleGoogle}
             className={`${
@@ -140,8 +149,8 @@ const Experience = () => {
         {workSwapIT && <ReactBD />}
         {workXlancr && <Splash />}
         {workTripster && <Google />}
-        {/* {workApple && <Apple />}
-        {workAmazon && <Amazon />} */}
+        { workApple && <Apple />}
+        {/* {workAmazon && <Amazon />} */}
       </div>
     </section>
   );

@@ -10,36 +10,38 @@ const Apple = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
-        <span className="text-textGreen tracking-wide">@Apple</span>
+        Research Intern
+        <span className="text-textGreen tracking-wide">@IIT-BHU(Varanasi)</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+        Sep 2024 - Apr 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Conducted advanced research in Continual Learning and Class Incremental Learning (CIL), focusing on molecular property prediction using transformer-based MoLFormer models.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Implemented and evaluated Adversarial Drift Compensation (ADC), Learning without Forgetting (LwF), and FETRIL techniques for improved performance on molecular datasets like BBBP, using EWC and other regularizers.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Published a research paper at ICCS'25, NTU Singapore based on this work in an international journal, highlighting contributions in class-incremental molecular learning and continual adaptation using MoLFormer embeddings.{" "}
+          <a
+            href="https://link.springer.com/chapter/10.1007/978-3-031-97554-7_23"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-textGreen underline ml-1"
+          >
+            Read Paper
+          </a>
         </li>
       </ul>
     </motion.div>

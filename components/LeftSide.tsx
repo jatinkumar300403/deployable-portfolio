@@ -25,18 +25,6 @@ const LeftSide = () => {
           </span>
         </a>
         <a
-          href="https://www.facebook.com/profile.php?id=100054477187049&mibextid=ZbWKwL"
-          target="_blank"
-        >
-          <span
-            className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
-                    items-center justify-center hover:text-textGreen cursor-pointer
-                    hover:-translate-y-2 transition-all duration-300"
-          >
-            <SlSocialFacebook />
-          </span>
-        </a>
-        <a
           href="https://www.instagram.com/jatinkumar.gg?igshid=OGQ5ZDc2ODk2ZA=="
           target="_blank"
         >

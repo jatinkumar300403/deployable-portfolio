@@ -1,4 +1,4 @@
-import { calc } from "@/public/assets";
+import { calc, f1gptimg } from "@/public/assets";
 import { amzn } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
@@ -13,6 +13,57 @@ const Projects = () => {
         {/* p2 */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         {/* p1 */}
+        <div className="flex flex-col xl:flex-row gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://formula-one-gpt.vercel.app/"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={f1gptimg}
+                alt="f1gptImg"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">F1GPT</h3>
+            </div>
+            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              An AI-powered Formula 1 chatbot that provides real-time race information, driver statistics, and F1 insights. Built with 
+              <span className="text-textGreen"> NEXT.js</span> and integrated with <span className="text-textGreen">OpenAI GPT</span> to deliver intelligent responses about Formula 1 data, race results, and driver performance.
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>RAG</li>
+              <li>Datastax</li>
+              <li>OpenAI API</li>
+              <li>NEXT.js</li>
+              <li>Vercel</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              {/* <a
+                className="hover:text-textGreen duration-300"
+                href="https://github.com/jatinkumar300403/F1GPT"
+                target="_blank"
+              >
+                <TbBrandGithub />
+              </a> */}
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://formula-one-gpt.vercel.app/"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"

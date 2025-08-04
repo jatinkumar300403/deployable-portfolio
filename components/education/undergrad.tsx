@@ -21,7 +21,7 @@ const Undergrad = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Currently pursuing Bachelor of Technology in Computer Science and Engineering. My current CGPA is 8.58.
+          Currently pursuing Bachelor of Technology in Computer Science and Engineering. My current CGPA is 8.57.
         </li>
       </ul>
     </motion.div>
